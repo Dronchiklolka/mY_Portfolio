@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 340px;
+    background-color: #4f4f4f;
+    margin-bottom: 200px;
+}
+
+
+body{
+    margin: 0;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    border: 0;
+    vertical-align: middle;
+}
+
+
+nav a{
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section{
+    width: 100%;
+    max-width: 1200px;  
+    margin: 0 auto;
+    padding: 0 15px;  
+}
+
+.header__navigation{
+    display:flex;
+    justify-content: space-around;
+    line-height: 50px;
+    background-color: #585757;
+    box-shadow: 0 0 7px #666
+}
+
+.header__title{
+
+}
+
+.header__heading{
+    text-align: center;
+}
+
+.header__heading h1{
+
+    padding: 25px 0;   
+}
+
+.header__photo{
+    display: flex;
+    justify-content: center;
+}
+
+.photo__person{
+    border-radius: 50%;
+    
+}
+
+.about{
+
+}
+
+.about__text{
+    color:#000;
+}
+
+.about__item{
+    padding: 30px 5px;
+}
+
+.about__item svg{
+    width: 40px;
+    height: 50px;
+}
+
+.about__icons{
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
